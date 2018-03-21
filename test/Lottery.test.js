@@ -17,6 +17,8 @@ beforeEach(async () => {
 })
 
 describe('Lottery Contract', () => {
-  it('deploys a contract')
+  it('deploys a contract', () => {
+    assert.ok(lottery.options.address)
+  })
 
 })
